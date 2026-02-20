@@ -53,18 +53,16 @@ button{
 }
 .flower-shop-content-image img{
      width: 50%;
-    height: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 /* main-section-start*/
 .feature-flower-container{
-    border: 2px solid red;
     margin-top: 5%;
     max-width: 1920px;
-    max-height: 600px;
+    border: 2px solid red;
 }
 .feature-flower-contant{
-    width: 80%;
-    border: 2px solid green;
     margin: 0 auto;
 }
 .feature-flower-content-text{
@@ -72,31 +70,71 @@ button{
 }
 .feature-flower-content-text h2{
     font-size: 2em ;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
+.feature-flower-content-text p{
+    font-size: 1em;
+    margin-bottom: 3%;
+    
+}
+
 .feature-flower-images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    border: 2px solid rgb(47, 0, 255);
+    gap: 30px;
+    width: 80%;
+    max-height: 650px;
+    border: 2px solid red;
+    margin: 0 auto;
 }
 .feature-flower-images-part1{
-    width:90%;
-    height: 90%;
-    border: 2px solid red;
+    height: 640px;
+    width: 480px;
     background-color: rgb(242, 222, 232);
     border-radius: 50% 50% 0% 0%;
     overflow: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+     object-fit: cover;
 }
 .feature-flower-images-part1 img{
-    width:100%;
-    height: 100%;
+    margin: 0 auto;
+    margin-top: 50%;
     object-fit: cover;
     object-position: center;
 }
 
 .feature-flower-images-part2{
+    height: 640px;
+    width: 480px;
     background-color: rgb(218, 240, 241);
+    border-radius: 50% 50% 0% 0%;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
-.feature-flower-images-part3{
+.feature-flower-images-part2 img{
+    margin: 0 auto;
+    margin-top: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.feature-flower-images-part3{ 
+    height: 640px;    
+    width: 480px;
     background-color: rgb(228, 236, 220);
+    border-radius: 50% 50% 0% 0%;
+    overflow: hidden;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.feature-flower-images-part3 img{
+    margin: 0 auto;
+    margin-top: 50%;
+    object-fit: cover;
+    object-position: center;
 }
